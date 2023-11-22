@@ -35,6 +35,92 @@ def get_messages_history(history_len: int, content_in_expander: bool = False) ->
 
     return chat_box.filter_history(history_len=history_len, filter=filter)
 
+def input_json_read(txt: str):
+    '''
+    将读取的txt格式的json文本转换为json格式，提取对应的内容。
+    对应的json格式为：
+{
+    "video": {
+        "file_name": "20230525_133620.mp4",
+        "total_frame": 8460,
+        "fps": 60,
+        "duration": 141,
+        "date": "2023-05-25T13:36:20"
+    },
+    "actions": [
+        {
+            "id": 1,
+            "initial_frame": 709,
+            "terminal_frame": 771,
+            "initial_second": 11.8,
+            "terminal_second": 12.8,
+            "category_id": 6,
+            "info": "e.g. Belongs to parent task A"
+        },
+        {
+            "id": 2,
+            "initial_frame": 819,
+            "terminal_frame": 859,
+            "initial_second": 13.7,
+            "terminal_second": 14.3,
+            "category_id": 7,
+            "info": "e.g. Belongs to parent task A"
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "background"
+        },
+        {
+            "id": 1,
+            "name": "add reagent to 96 well plate"
+        },
+        {
+            "id": 2,
+            "name": "pipetting reagent from epi tube"
+        },
+        {
+            "id": 3,
+            "name": "pipetting reagent from 50ml tube"
+        }
+    ]   
+}
+    '''
+
+    import json
+    json_data = json.loads(txt)
+
+    #时间戳检查的列表-set
+    time_indentifier_list=set(['incubate','centrifuge','beads','dry','prewarm','bath',\
+                         'block','boil','store','resuspend','react','spin','rotate'])
+    input_text=[]
+
+    # 创建一个字典，将categories列表中的id与name关联起来
+    category_mapping = {category["id"]: category["name"] for category in json_data["categories"]}
+
+    # 将actions列表中的category_id映射为对应的name
+    for action in json_data["actions"]:
+        action["action_text"] = category_mapping.get(action["category_id"], "Unknown")
+
+    # 对name进行识别
+    for action in json_data['actions']:
+        #判断时间是否
+        if time_indentifier_list.intersection(action['action_text'].split()):
+            #时间可以获取到
+            duration_sec=int(float(action['terminal_second'])-float(action['initial_second']))
+            if duration_sec > 60:
+                duration_min=int(duration_sec/60)
+                action=action['action_text']+' for '+ str(int(duration_min))+' minutes. '
+            else:
+                action=action['action_text']+' for '+ str(int(duration_sec))+' seconds. '
+            input_text.append(action)
+        else:
+            input_text.append(action['action_text'])
+    
+    return str(input_text)
+
+
 
 def dialogue_page(api: ApiRequest, is_lite: bool = False):
     if not chat_box.chat_inited:
@@ -197,6 +283,7 @@ def dialogue_page(api: ApiRequest, is_lite: bool = False):
     }
 
     if prompt := st.chat_input(chat_input_placeholder, key="prompt"):
+        prompt=input_json_read(str(prompt))
         history = get_messages_history(history_len)
         chat_box.user_say(prompt)
         if dialogue_mode == "LLM 对话":
