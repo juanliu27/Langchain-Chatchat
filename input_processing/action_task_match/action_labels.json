@@ -1,0 +1,1236 @@
+{
+    "action_categories": [
+        {
+            "id": 0,
+            "name": "background",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 1,
+            "name": "add 1ml liquid to 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 2,
+            "name": "add 3ml media to 15ml tube and mix",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 3,
+            "name": "add liquid reagent to 50ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 4,
+            "name": "add liquid reagent to 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 5,
+            "name": "add liquid to epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 6,
+            "name": "add media to 15ml tube and mix",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 7,
+            "name": "add reagent to 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 8,
+            "name": "add reagent to 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 9,
+            "name": "add reagent to epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 10,
+            "name": "add reagent to epi tube and mix",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 11,
+            "name": "aspirate liquid from 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 12,
+            "name": "aspirate media",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 13,
+            "name": "attach 5ml pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 14,
+            "name": "attach glass pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 15,
+            "name": "attach pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 16,
+            "name": "attach pipette tip",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 17,
+            "name": "attach tip",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 18,
+            "name": "bring assay reagent box back to cabinet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 19,
+            "name": "bring cell culture plate into hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 20,
+            "name": "bring media bottle in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 21,
+            "name": "bring reagent to centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 22,
+            "name": "check",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 23,
+            "name": "check 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 24,
+            "name": "check label on 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 25,
+            "name": "check label on 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 26,
+            "name": "check label on bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 27,
+            "name": "check pipette volume",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 28,
+            "name": "check reagent bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 29,
+            "name": "clean hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 30,
+            "name": "close 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 31,
+            "name": "close 50ml reagent tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 32,
+            "name": "close 50ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 33,
+            "name": "close 50ml tube with reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 34,
+            "name": "close 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 35,
+            "name": "close and put 15ml tube back to rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 36,
+            "name": "close bottle lid",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 37,
+            "name": "close box lid",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 38,
+            "name": "close cap of 50ml tube with reagents",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 39,
+            "name": "close cell culture incubator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 40,
+            "name": "close cell culture plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 41,
+            "name": "close centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 42,
+            "name": "close epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 43,
+            "name": "close epi tube cap",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 44,
+            "name": "close fridge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 45,
+            "name": "close fridge door",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 46,
+            "name": "close glass pipet box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 47,
+            "name": "close incubator door",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 48,
+            "name": "close media bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 49,
+            "name": "close pen cap",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 50,
+            "name": "close reagent bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 51,
+            "name": "close tip box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 52,
+            "name": "discard 15ml tube with reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 53,
+            "name": "discard epi tubes",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 54,
+            "name": "discard glass pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 55,
+            "name": "discard liquid",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 56,
+            "name": "discard liquid and eject tip",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 57,
+            "name": "discard pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 58,
+            "name": "discard pipet tip",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 59,
+            "name": "discard reagents",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 60,
+            "name": "eject pipette tip",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 61,
+            "name": "eject tip",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 62,
+            "name": "find epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 63,
+            "name": "find rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 64,
+            "name": "finish organize hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 65,
+            "name": "forgot to change glass pipet between reagent 1 and 2",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 66,
+            "name": "forgot to change tip",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 67,
+            "name": "forgot to change tip between reagent and 2",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 68,
+            "name": "get 1.5ml liquid out from culture plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 69,
+            "name": "get 1ml liquid from cell culture plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 70,
+            "name": "get 3ml media from bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 71,
+            "name": "get assay box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 72,
+            "name": "get control reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 73,
+            "name": "get media bottle from fridge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 74,
+            "name": "get media out from water bath",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 75,
+            "name": "get reagent box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 76,
+            "name": "label 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 77,
+            "name": "label 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 78,
+            "name": "label epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 79,
+            "name": "label epi tube with reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 80,
+            "name": "mix",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 81,
+            "name": "mix epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 82,
+            "name": "open 15ml control tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 83,
+            "name": "open 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 84,
+            "name": "open 50ml tube with assay reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 85,
+            "name": "open 50ml tube with control reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 86,
+            "name": "open 50ml tube with reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 87,
+            "name": "open 5ml pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 88,
+            "name": "open 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 89,
+            "name": "open 96 well plate lid",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 90,
+            "name": "open a new 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 91,
+            "name": "open bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 92,
+            "name": "open box lid",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 93,
+            "name": "open cell culture hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 94,
+            "name": "open cell culture incubator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 95,
+            "name": "open cell culture plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 96,
+            "name": "open centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 97,
+            "name": "open epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 98,
+            "name": "open epi tube cap",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 99,
+            "name": "open fridge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 100,
+            "name": "open fridge door",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 101,
+            "name": "open frige",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 102,
+            "name": "open glass pipet box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 103,
+            "name": "open glass pipet tip box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 104,
+            "name": "open hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 105,
+            "name": "open incubator door",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 106,
+            "name": "open media bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 107,
+            "name": "open pen cap",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 108,
+            "name": "open reagent bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 109,
+            "name": "open tip box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 110,
+            "name": "pick 15ml control tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 111,
+            "name": "pick 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 112,
+            "name": "pick 15ml tube with reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 113,
+            "name": "pick 15ml tubes",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 114,
+            "name": "pick 15ml tubes from centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 115,
+            "name": "pick 50ml tube with control reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 116,
+            "name": "pick 50ml tube with reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 117,
+            "name": "pick 5ml pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 118,
+            "name": "pick 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 119,
+            "name": "pick 96 well plate from hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 120,
+            "name": "pick a new 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 121,
+            "name": "pick cell culture plate from hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 122,
+            "name": "pick cell culture plate from incubator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 123,
+            "name": "pick epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 124,
+            "name": "pick epi tube from box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 125,
+            "name": "pick epi tube on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 126,
+            "name": "pick epi tube with reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 127,
+            "name": "pick glass pipet",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 128,
+            "name": "pick glass pipet box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 129,
+            "name": "pick glass pipet tip box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 130,
+            "name": "pick media",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 131,
+            "name": "pick media bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 132,
+            "name": "pick pen",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 133,
+            "name": "pick pipette",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 134,
+            "name": "pick pipette 1000",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 135,
+            "name": "pick pipette 20",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 136,
+            "name": "pick pipette 200",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 137,
+            "name": "pick rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 138,
+            "name": "pick reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 139,
+            "name": "pick reagent tube from centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 140,
+            "name": "pick reagents from reagent box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 141,
+            "name": "pick tip box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 142,
+            "name": "pipet 2ml media",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 143,
+            "name": "pipet 2ml media from bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 144,
+            "name": "pipet liquid from bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 145,
+            "name": "pipet liquid reagent from bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 146,
+            "name": "pipeting reagent from 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 147,
+            "name": "pipeting reagent from 96 well plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 148,
+            "name": "pipetting liquid out from bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 149,
+            "name": "pipetting liquid reagent from 50ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 150,
+            "name": "pipetting reagent",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 151,
+            "name": "pipetting reagent from 15ml control tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 152,
+            "name": "pipetting reagent from 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 153,
+            "name": "pipetting reagent from 50ml",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 154,
+            "name": "pipetting reagent from 50ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 155,
+            "name": "pipetting reagent from bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 156,
+            "name": "pipetting reagent from epi tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 157,
+            "name": "pipetting reagent from reagent bottle",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 158,
+            "name": "place 50ml tube on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 159,
+            "name": "put 15ml control tube on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 160,
+            "name": "put 15ml reagent tubes in centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 161,
+            "name": "put 15ml reagent tubes in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 162,
+            "name": "put 15ml tube in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 163,
+            "name": "put 15ml tube on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 164,
+            "name": "put 15ml tubes in centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 165,
+            "name": "put 15ml tubes in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 166,
+            "name": "put 50ml reagent tube on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 167,
+            "name": "put 50ml tube on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 168,
+            "name": "put 50ml tube with reagent on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 169,
+            "name": "put 96 well plate in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 170,
+            "name": "put 96 well plate in incubator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 171,
+            "name": "put a 96 well plate in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 172,
+            "name": "put cell culture plate in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 173,
+            "name": "put cell culture plate in incubator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 174,
+            "name": "put cell culture plates in cell culture incubator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 175,
+            "name": "put epi tube back to rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 176,
+            "name": "put epi tube on rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 177,
+            "name": "put media bottle in water bath",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 178,
+            "name": "put media in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 179,
+            "name": "put reagent and media bottles back to fridge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 180,
+            "name": "put reagent bottle in hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 181,
+            "name": "put reagent box back in rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 182,
+            "name": "put reagent box back to fridge rack",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 183,
+            "name": "put reagents back in box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 184,
+            "name": "put reagents back to reagent box",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 185,
+            "name": "sanitize",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 186,
+            "name": "sanitize hand",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 187,
+            "name": "sanitize hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 188,
+            "name": "set pipette volume",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 189,
+            "name": "start centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 190,
+            "name": "start organize hood",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 191,
+            "name": "stop centrifuge",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 192,
+            "name": "tap 96 well plate to mix",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 193,
+            "name": "tap to mix reagents",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 194,
+            "name": "tilt cell culture plate",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 195,
+            "name": "turn off",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 196,
+            "name": "turn off aspirator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 197,
+            "name": "turn off hood light",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 198,
+            "name": "turn on  light",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 199,
+            "name": "turn on aspirator",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 200,
+            "name": "turn on hood light",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 201,
+            "name": "vortex 15ml tube",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 202,
+            "name": "vortex 50ml tube to mix",
+            "task_id": null,
+            "attributes": []
+        },
+        {
+            "id": 203,
+            "name": "wear glove",
+            "task_id": null,
+            "attributes": []
+        }
+    ],
+    "task_categories": [
+        {
+            "id": 0,
+            "name": "task name",
+            "action_sequences": [],
+            "attributes": []
+        }
+    ]
+}

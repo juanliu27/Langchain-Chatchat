@@ -1,0 +1,81 @@
+{
+    "video": {
+        "file_name": "20230525_133620.mp4",
+        "total_frame": 8460,
+        "fps": 60,
+        "duration": 141,
+        "date": "2023-05-25T13:36:20"
+    },
+    "actions": [
+        {
+            "id": 1,
+            "initial_frame": 709,
+            "terminal_frame": 771,
+            "initial_second": 11.8,
+            "terminal_second": 12.8,
+            "category_id": 6,
+            "info": "e.g. Belongs to parent task A"
+        },
+        {
+            "id": 2,
+            "initial_frame": 819,
+            "terminal_frame": 859,
+            "initial_second": 13.7,
+            "terminal_second": 14.3,
+            "category_id": 7,
+            "info": "e.g. Belongs to parent task A"
+        }
+    ],
+    "action_categories": [
+        {
+            "id": 0,
+            "name": "background"
+            "protocol_task":" "
+        
+        },
+        {
+            "id": 1,
+            "name": "open incubator"
+            "protocol_task":"use incubator to do sth"
+            "protocol_task_id":"0"
+            "attribution": [
+                "start"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "open incubator"
+            "protocol_task":"use incubator to do sth"
+            "protocol_task_id":"0"
+            "attribution": [
+                "end"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "pipetting reagent from 50ml tube"
+        }
+    ],
+
+    "task_categories": [
+        {
+            "id": 0,
+            "name": "use incubator to do sth"
+            "attribution": [
+                "duaratgion"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "a task"
+        },
+        {
+            "id": 2,
+            "name": "pipetting reagent from epi tube"
+        },
+        {
+            "id": 3,
+            "name": "pipetting reagent from 50ml tube"
+        }
+    ] 
+}
