@@ -46,7 +46,7 @@ def input_json_read(txt: str):
 '''
 最后输出-task+condition&duration
 
-形成一个dict: action_id-(非零)task-timestamp起止-condition否-duration否-task[]
+形成一个dict: action_id-(非零)task-timestamp起止-attribute['','']-task[]
 
 生成新list:
     falsefalse: 正常task-且统计次数
@@ -58,6 +58,13 @@ def input_json_read(txt: str):
 '''
 
 '''
-condition与duration多次连续出现:    
-    认为是不同的动作，分别表示。
+condition与duration多次连续出现: 
+
+    duration-分开写
+    condition-fortimes有
+
+'''
+
+'''
+model —> action -> task -> count task, 
 '''

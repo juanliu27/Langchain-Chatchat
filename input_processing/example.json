@@ -38,18 +38,13 @@
             "name": "open incubator"
             "protocol_task":"use incubator to do sth"
             "protocol_task_id":"0"
-            "attribution": [
-                "start"
-            ]
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "open incubator"
             "protocol_task":"use incubator to do sth"
             "protocol_task_id":"0"
-            "attribution": [
-                "end"
-            ]
+        
         },
         {
             "id": 3,
@@ -63,7 +58,8 @@
             "name": "use incubator to do sth"
             "attribution": [
                 "duaratgion"
-            ]
+            ],
+            "seqence":[1,4,7]
         },
         {
             "id": 1,
