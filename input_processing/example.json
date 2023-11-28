@@ -13,7 +13,7 @@
             "terminal_frame": 771,
             "initial_second": 11.8,
             "terminal_second": 12.8,
-            "category_id": 6,
+            "category_id": 2,
             "info": "e.g. Belongs to parent task A"
         },
         {
@@ -22,7 +22,7 @@
             "terminal_frame": 859,
             "initial_second": 13.7,
             "terminal_second": 14.3,
-            "category_id": 7,
+            "category_id": 3,
             "info": "e.g. Belongs to parent task A"
         }
     ],
@@ -30,48 +30,20 @@
         {
             "id": 0,
             "name": "background"
-            "protocol_task":" "
         
         },
         {
             "id": 1,
             "name": "open incubator"
-            "protocol_task":"use incubator to do sth"
-            "protocol_task_id":"0"
         },
         {
             "id": 2,
             "name": "open incubator"
-            "protocol_task":"use incubator to do sth"
-            "protocol_task_id":"0"
         
         },
         {
             "id": 3,
             "name": "pipetting reagent from 50ml tube"
         }
-    ],
-
-    "task_categories": [
-        {
-            "id": 0,
-            "name": "use incubator to do sth"
-            "attribution": [
-                "duaratgion"
-            ],
-            "seqence":[1,4,7]
-        },
-        {
-            "id": 1,
-            "name": "a task"
-        },
-        {
-            "id": 2,
-            "name": "pipetting reagent from epi tube"
-        },
-        {
-            "id": 3,
-            "name": "pipetting reagent from 50ml tube"
-        }
-    ] 
+    ]
 }
