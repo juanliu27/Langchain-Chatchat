@@ -284,7 +284,9 @@ def dialogue_page(api: ApiRequest, is_lite: bool = False):
     }
 
     if prompt := st.chat_input(chat_input_placeholder, key="prompt"):
+        # 添加json识别工具
         prompt=json_to_action(str(prompt))
+        
         history = get_messages_history(history_len)
         chat_box.user_say(prompt)
         if dialogue_mode == "LLM 对话":
